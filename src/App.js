@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from './Home';
-import Contact from './Contact';
+import Counter from './Counter';
 import Blog from './Blog';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -17,7 +17,7 @@ function App() {
                 <Link className="nav-link" to="/">Home</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/contact">Contact</Link>
+                <Link className="nav-link" to="/Counter">Counter</Link>
               </li>
               <li className="nav-item">
               <Link className="nav-link" to="/blog">Blog</Link>
@@ -28,7 +28,7 @@ function App() {
        <div className="container mt-4">
          <Routes>
            <Route path="/" element={<Home />} />
-           <Route path="/contact" element={<Contact />} />
+           <Route path="/Counter" element={<Counter />} />
            <Route path="/blog" element={<Blog />} />
          </Routes>
        </div>
