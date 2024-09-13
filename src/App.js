@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from './Home';
 import Counter from './Counter';
 import Blog from './Blog';
+import CountingStopper from './CountingStopper';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
     <Router>
       <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <a className="navbar-brand" href="#">ReactBasic</a>
+          <h3>ReactBasic</h3>
           <div className="collapse navbar-collapse">
             <ul className="navbar-nav">
               <li className="nav-item">
@@ -30,6 +31,7 @@ function App() {
            <Route path="/" element={<Home />} />
            <Route path="/Counter" element={<Counter />} />
            <Route path="/blog" element={<Blog />} />
+           <Route path="/CountingStopper" element={<CountingStopper/>} />
          </Routes>
        </div>
      </div>
