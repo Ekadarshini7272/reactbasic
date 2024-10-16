@@ -5,6 +5,7 @@ import Counter from './Counter';
 import Blog from './Blog';
 import CountingStopper from './CountingStopper';
 import Timer from './Timer';
+import VehiclePage from './VehiclePage'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
            <Route path="/blog" element={<Blog />} />
            <Route path="/CountingStopper" element={<CountingStopper/>} />
            <Route path="/Timer" element={<Timer/>} />
+           <Route path="/VehiclePage" element={<VehiclePage/>} />
          </Routes>
        </div>
      </div>
