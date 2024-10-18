@@ -1,11 +1,12 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, } from 'react-router-dom';
 import Home from './Home';
 import Counter from './Counter';
 import Blog from './Blog';
 import CountingStopper from './CountingStopper';
 import Timer from './Timer';
-import VehiclePage from './VehiclePage'
+import VehiclePage from './VehiclePage';
+import ArrayMethod from './ArrayMethod';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
            <Route path="/CountingStopper" element={<CountingStopper/>} />
            <Route path="/Timer" element={<Timer/>} />
            <Route path="/VehiclePage" element={<VehiclePage/>} />
+           <Route path="/ArrayMethod" element={<ArrayMethod/>} />
          </Routes>
        </div>
      </div>
