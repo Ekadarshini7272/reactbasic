@@ -7,6 +7,9 @@ import CountingStopper from './CountingStopper';
 import Timer from './Timer';
 import VehiclePage from './VehiclePage';
 import ArrayMethod from './ArrayMethod';
+import IfConditionRender from '../src/ConditionalRedering/IfConditionRender';
+import IfArrayofObjectRender from '../src/ConditionalRedering/IfArrayofObjectRender';
+import RenderList from '../src/ConditionalRedering/RenderList'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -38,6 +41,9 @@ function App() {
            <Route path="/Timer" element={<Timer/>} />
            <Route path="/VehiclePage" element={<VehiclePage/>} />
            <Route path="/ArrayMethod" element={<ArrayMethod/>} />
+           <Route path="/IfConditionRender" element={<IfConditionRender/>} />
+           <Route path="/IfArrayofObjectRender" element={<IfArrayofObjectRender/>} />
+           <Route path="/RenderList" element={<RenderList/>}/>
          </Routes>
        </div>
      </div>
