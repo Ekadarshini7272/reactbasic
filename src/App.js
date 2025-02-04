@@ -9,7 +9,10 @@ import VehiclePage from './VehiclePage';
 import ArrayMethod from './ArrayMethod';
 import IfConditionRender from '../src/ConditionalRedering/IfConditionRender';
 import IfArrayofObjectRender from '../src/ConditionalRedering/IfArrayofObjectRender';
-import RenderList from '../src/ConditionalRedering/RenderList'
+import RenderList from '../src/ConditionalRedering/RenderList';
+import UseStateEffect from '../src/Hooks/UseStateEffect';
+import CalculateSquare from '../src/Hooks/CalculateSquare';
+import SquareCalculate from '../src/Hooks/SquareCalculate';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -44,6 +47,9 @@ function App() {
            <Route path="/IfConditionRender" element={<IfConditionRender/>} />
            <Route path="/IfArrayofObjectRender" element={<IfArrayofObjectRender/>} />
            <Route path="/RenderList" element={<RenderList/>}/>
+           <Route path="/UseStateEffect" element={<UseStateEffect/>}/>
+           <Route path ="/CalculateSquare" element={<CalculateSquare/>}/>
+           <Route path ="/SquareCalculate" element={<SquareCalculate/>}/>
          </Routes>
        </div>
      </div>
