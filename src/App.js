@@ -13,6 +13,8 @@ import RenderList from '../src/ConditionalRedering/RenderList';
 import UseStateEffect from '../src/Hooks/UseStateEffect';
 import CalculateSquare from '../src/Hooks/CalculateSquare';
 import SquareCalculate from '../src/Hooks/SquareCalculate';
+import ColorEffect from '../src/Hooks/ColorEffect';
+import CommonPrefix from '../src/Hooks/CommonPrefix'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -50,6 +52,8 @@ function App() {
            <Route path="/UseStateEffect" element={<UseStateEffect/>}/>
            <Route path ="/CalculateSquare" element={<CalculateSquare/>}/>
            <Route path ="/SquareCalculate" element={<SquareCalculate/>}/>
+           <Route path ="/ColorEffect" element={<ColorEffect/>}/>
+           <Route path = "CommonPrefix" element={<CommonPrefix/>}/>
          </Routes>
        </div>
      </div>
