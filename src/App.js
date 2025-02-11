@@ -16,6 +16,7 @@ import SquareCalculate from '../src/Hooks/SquareCalculate';
 import ColorEffect from '../src/Hooks/ColorEffect';
 import CommonPrefix from '../src/Hooks/CommonPrefix';
 import EvenNumber from '../src/JSquestion/EvenNumber';
+import EvenNumberForEach from '../src/JSquestion/EvenNumberForEach';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -56,6 +57,7 @@ function App() {
            <Route path ="/ColorEffect" element={<ColorEffect/>}/>
            <Route path = "/CommonPrefix" element={<CommonPrefix/>}/>
            <Route path= "/EvenNumber" element={<EvenNumber/>}/>
+           <Route path= "/EvenNumberForEach" element={<EvenNumberForEach/>}/>
          </Routes>
        </div>
      </div>
