@@ -14,7 +14,8 @@ import UseStateEffect from '../src/Hooks/UseStateEffect';
 import CalculateSquare from '../src/Hooks/CalculateSquare';
 import SquareCalculate from '../src/Hooks/SquareCalculate';
 import ColorEffect from '../src/Hooks/ColorEffect';
-import CommonPrefix from '../src/Hooks/CommonPrefix'
+import CommonPrefix from '../src/Hooks/CommonPrefix';
+import EvenNumber from '../src/JSquestion/EvenNumber';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -53,7 +54,8 @@ function App() {
            <Route path ="/CalculateSquare" element={<CalculateSquare/>}/>
            <Route path ="/SquareCalculate" element={<SquareCalculate/>}/>
            <Route path ="/ColorEffect" element={<ColorEffect/>}/>
-           <Route path = "CommonPrefix" element={<CommonPrefix/>}/>
+           <Route path = "/CommonPrefix" element={<CommonPrefix/>}/>
+           <Route path= "/EvenNumber" element={<EvenNumber/>}/>
          </Routes>
        </div>
      </div>
