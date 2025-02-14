@@ -19,6 +19,9 @@ import EvenNumber from '../src/JSquestion/EvenNumber';
 import EvenNumberForEach from '../src/JSquestion/EvenNumberForEach';
 import EvenNumberReduce from '../src/JSquestion/EvenNumberReduce';
 import EvenNumberFor from '../src/JSquestion/EvenNumberFor';
+import WordCountForEach from '../src/JSquestion/WordCountForEach';
+import WordCountReduce from '../src/JSquestion/WordCountReduce';
+import WordCountFor from '../src/JSquestion/WordCountFor';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -62,6 +65,9 @@ function App() {
            <Route path= "/EvenNumberForEach" element={<EvenNumberForEach/>}/>
            <Route path= "/EvenNumberReduce" element={<EvenNumberReduce/>}/>
            <Route path= "/EvenNumberFor" element={<EvenNumberFor/>}/>
+           <Route path= "/WordCountForEach" element={<WordCountForEach/>}/>
+           <Route path= "/WordCountReduce" element={<WordCountReduce/>}/>
+           <Route path= "/WordCountFor" element={<WordCountFor/>}/>
          </Routes>
        </div>
      </div>
