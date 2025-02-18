@@ -22,6 +22,8 @@ import EvenNumberFor from '../src/JSquestion/EvenNumberFor';
 import WordCountForEach from '../src/JSquestion/WordCountForEach';
 import WordCountReduce from '../src/JSquestion/WordCountReduce';
 import WordCountFor from '../src/JSquestion/WordCountFor';
+import MaxnumberFor from '../src/JSquestion/MaxnumberFor';
+import ReverseString from '../src/JSquestion/ReverseString';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -30,19 +32,6 @@ function App() {
       <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <h4>ReactBasic</h4>
-          {/* <div className="collapse navbar-collapse">
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <Link className="nav-link" to="/">Home</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/Counter">Counter</Link>
-              </li>
-              <li className="nav-item">
-              <Link className="nav-link" to="/blog">Blog</Link>
-             </li>
-           </ul>
-         </div> */}
        </nav>
        <div className="container mt-4">
          <Routes>
@@ -68,6 +57,8 @@ function App() {
            <Route path= "/WordCountForEach" element={<WordCountForEach/>}/>
            <Route path= "/WordCountReduce" element={<WordCountReduce/>}/>
            <Route path= "/WordCountFor" element={<WordCountFor/>}/>
+           <Route path= "/MaxnumberFor" element={<MaxnumberFor/>}/>
+           <Route path= "/ReverseString" element={<ReverseString/>}/>
          </Routes>
        </div>
      </div>
