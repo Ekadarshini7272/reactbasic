@@ -24,6 +24,8 @@ import WordCountReduce from '../src/JSquestion/WordCountReduce';
 import WordCountFor from '../src/JSquestion/WordCountFor';
 import MaxnumberFor from '../src/JSquestion/MaxnumberFor';
 import ReverseString from '../src/JSquestion/ReverseString';
+import RemoveDuplicateFor from '../src/JSquestion/RemoveDuplicateFor';
+import RemoveDuplicateSet from '../src/JSquestion/RemoveDuplicateSet'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -59,6 +61,8 @@ function App() {
            <Route path= "/WordCountFor" element={<WordCountFor/>}/>
            <Route path= "/MaxnumberFor" element={<MaxnumberFor/>}/>
            <Route path= "/ReverseString" element={<ReverseString/>}/>
+           <Route path= "/RemoveDuplicateFor" element={<RemoveDuplicateFor/>}/>
+           <Route path= "/RemoveDuplicateSet" element={<RemoveDuplicateSet/>}/>
          </Routes>
        </div>
      </div>
