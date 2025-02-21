@@ -28,6 +28,7 @@ import RemoveDuplicateFor from '../src/JSquestion/RemoveDuplicateFor';
 import RemoveDuplicateSet from '../src/JSquestion/RemoveDuplicateSet';
 import FlattenArray from '../src/JSquestion/FlattenArray';
 import MergeSortArrayWhile from '../src/JSquestion/MergeSortArrayWhile';
+import UniqueChar from '../src/JSquestion/UniqueChar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -67,6 +68,7 @@ function App() {
            <Route path= "/RemoveDuplicateSet" element={<RemoveDuplicateSet/>}/>
            <Route path= "/FlattenArray" element={<FlattenArray/>}/>
            <Route path= "/MergeSortArrayWhile" element={<MergeSortArrayWhile/>}/>
+           <Route path= "/UniqueChar" element={<UniqueChar/>}/>
          </Routes>
        </div>
      </div>
