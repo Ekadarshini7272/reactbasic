@@ -29,7 +29,8 @@ import RemoveDuplicateSet from '../src/JSquestion/RemoveDuplicateSet';
 import FlattenArray from '../src/JSquestion/FlattenArray';
 import MergeSortArrayWhile from '../src/JSquestion/MergeSortArrayWhile';
 import UniqueChar from '../src/JSquestion/UniqueChar';
-import CounterBtn from '../src/ReactBasicQuestion/CounterBtn'
+import CounterBtn from '../src/ReactBasicQuestion/CounterBtn';
+import ToggleBtn from '../src/ReactBasicQuestion/ToggleBtn';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -71,6 +72,7 @@ function App() {
            <Route path= "/MergeSortArrayWhile" element={<MergeSortArrayWhile/>}/>
            <Route path= "/UniqueChar" element={<UniqueChar/>}/>
            <Route path= "/CounterBtn" element={<CounterBtn/>}/>
+           <Route path= "/ToggleBtn" element={<ToggleBtn/>}/>
          </Routes>
        </div>
      </div>
