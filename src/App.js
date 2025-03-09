@@ -32,6 +32,7 @@ import UniqueChar from '../src/JSquestion/UniqueChar';
 import CounterBtn from '../src/ReactBasicQuestion/CounterBtn';
 import ToggleBtn from '../src/ReactBasicQuestion/ToggleBtn';
 import ThemeToggle from "../src/ReactBasicQuestion/ThemeToggle";
+import InputDataForm from "../src/ReactBasicQuestion/InputDataForm";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -75,6 +76,7 @@ function App() {
            <Route path= "/CounterBtn" element={<CounterBtn/>}/>
            <Route path= "/ToggleBtn" element={<ToggleBtn/>}/>
            <Route path= "/ThemeToggle" element={<ThemeToggle/>}/>
+           <Route path= "/InputDataForm" element={<InputDataForm/>}/>
          </Routes>
        </div>
      </div>
