@@ -33,6 +33,8 @@ import CounterBtn from '../src/ReactBasicQuestion/CounterBtn';
 import ToggleBtn from '../src/ReactBasicQuestion/ToggleBtn';
 import ThemeToggle from "../src/ReactBasicQuestion/ThemeToggle";
 import InputDataForm from "../src/ReactBasicQuestion/InputDataForm";
+import FetchData from "../src/ReactBasicQuestion/FetchData";
+import ToDoApp from "./ReactBasicQuestion/ToDoTask/ToDoApp"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -77,6 +79,8 @@ function App() {
            <Route path= "/ToggleBtn" element={<ToggleBtn/>}/>
            <Route path= "/ThemeToggle" element={<ThemeToggle/>}/>
            <Route path= "/InputDataForm" element={<InputDataForm/>}/>
+           <Route path= "/FetchData" element={<FetchData/>}/>
+           <Route path= "/ToDoApp" element={<ToDoApp/>}/>
          </Routes>
        </div>
      </div>
