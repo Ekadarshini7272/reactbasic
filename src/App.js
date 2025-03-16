@@ -34,7 +34,9 @@ import ToggleBtn from '../src/ReactBasicQuestion/ToggleBtn';
 import ThemeToggle from "../src/ReactBasicQuestion/ThemeToggle";
 import InputDataForm from "../src/ReactBasicQuestion/InputDataForm";
 import FetchData from "../src/ReactBasicQuestion/FetchData";
-import ToDoApp from "./ReactBasicQuestion/ToDoTask/ToDoApp"
+import ToDoApp from "./ReactBasicQuestion/ToDoTask/ToDoApp";
+import ProductDetails from './ReactBasicQuestion/ProductDetails/ProductDetails';
+import ShoppingCartApp from './ReactBasicQuestion/ShoppingCart/ShoppingCartApp';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -81,6 +83,8 @@ function App() {
            <Route path= "/InputDataForm" element={<InputDataForm/>}/>
            <Route path= "/FetchData" element={<FetchData/>}/>
            <Route path= "/ToDoApp" element={<ToDoApp/>}/>
+           <Route path= "/ProductDetails" element={<ProductDetails/>}/>
+           <Route path= "/ShoppingCartApp" element={<ShoppingCartApp/>}/>
          </Routes>
        </div>
      </div>
