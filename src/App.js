@@ -37,6 +37,8 @@ import FetchData from "../src/ReactBasicQuestion/FetchData";
 import ToDoApp from "./ReactBasicQuestion/ToDoTask/ToDoApp";
 import ProductDetails from './ReactBasicQuestion/ProductDetails/ProductDetails';
 import ShoppingCartApp from './ReactBasicQuestion/ShoppingCart/ShoppingCartApp';
+import AxiosApi from './ReactBasicQuestion/APIData/AxiosApi';
+import Form from './ReactBasicQuestion/Form'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -85,6 +87,8 @@ function App() {
            <Route path= "/ToDoApp" element={<ToDoApp/>}/>
            <Route path= "/ProductDetails" element={<ProductDetails/>}/>
            <Route path= "/ShoppingCartApp" element={<ShoppingCartApp/>}/>
+           <Route path= "/Form" element={<Form/>}/>
+           <Route path= "/AxiosApi" element={<AxiosApi/>}/>
          </Routes>
        </div>
      </div>

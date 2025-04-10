@@ -22,7 +22,7 @@ const InputDataForm =() =>{
         </form>
         {submitted && (
             <div>
-                <h2>{submitted.name}</h2>
+                <h2>{submitted.name}</h2>x``
                 <h2>{submitted.email}</h2>
                 <h2>{submitted.message}</h2>
             </div>
